@@ -1,0 +1,35 @@
+.items{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    cursor: alias;
+}
+.item img{
+    width: 450px;
+    height: 425px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+<style>body{
+    background-color: cornsilk;
+}    
+    </style>
+<style>h1{
+    text-align: center;
+    color: blue;
+    font-size: 65px;
+}
+h2{font-size: 39px;
+        color: black;
+    }
+h3{
+        color: black;
+        font-size: 35px;
+    }
+h4{
+    text-align: center;
+    font-size: 25px;
+}
